@@ -3327,6 +3327,8 @@ a {
 
   .div_middle_footer {
     padding-top: 48px;
+    padding-right: 24px;
+    padding-left: 24px;
   }
 
   .sec_email-subscription {
@@ -3444,6 +3446,11 @@ a {
     display: none;
   }
 
+  .txt-box_rl-24px_t-b-16px {
+    width: 90%;
+    padding-bottom: 0px;
+  }
+
   .txt_nav_overline {
     color: hsla(0, 0%, 100%, 0.31);
     font-weight: 600;
@@ -3470,12 +3477,12 @@ a {
   }
 
   .btn_default-all-caps {
-    width: 545vw;
+    padding-right: 24px;
+    padding-left: 24px;
     font-size: 10px;
   }
 
   .btn_default-all-caps.w--current {
-    width: 45vw;
     font-size: 10px;
   }
 
@@ -3488,7 +3495,17 @@ a {
   }
 
   .tabs {
-    padding-left: 16px;
+    min-width: 0px;
+    padding-left: 0px;
+  }
+
+  .tabs-content {
+    width: 90vw;
+  }
+
+  .tab-pane-for-investigators {
+    width: 80vw;
+    min-width: 0px;
   }
 
   .txt_24px_section-description-copy-copy {
