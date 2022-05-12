@@ -2513,7 +2513,7 @@ a {
   height: auto;
 }
 
-.txt_24px_section-description-copy-copy {
+.paragraph-text {
   display: block;
   max-width: 400px;
   padding-top: 0px;
@@ -2637,7 +2637,7 @@ a {
     padding-top: 0px;
   }
 
-  .txt_24px_section-description-copy-copy {
+  .paragraph-text {
     padding-top: 0px;
   }
 }
@@ -2721,7 +2721,7 @@ a {
     font-weight: 400;
   }
 
-  .txt_24px_section-description-copy-copy {
+  .paragraph-text {
     font-family: Poppins, sans-serif;
     font-weight: 400;
   }
@@ -2815,7 +2815,7 @@ a {
     background-color: rgba(255, 255, 255, 0.26);
   }
 
-  .txt_24px_section-description-copy-copy {
+  .paragraph-text {
     width: auto;
     font-size: 24px;
   }
@@ -3078,9 +3078,17 @@ a {
     height: 0vh;
   }
 
+  .div_middle_footer {
+    width: 90vw;
+  }
+
   .txt_footer_title {
-    padding-right: 32px;
-    padding-left: 32px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .txt-box_rl-24px_t-b-16px {
+    width: 100%;
   }
 
   .txt_32px_heading-1_turqise {
@@ -3098,6 +3106,10 @@ a {
 
   .box_sect_con_sub {
     min-height: 100%;
+  }
+
+  ._02 {
+    display: none;
   }
 
   .btn_toogle-half {
@@ -3223,8 +3235,13 @@ a {
     line-height: 40px;
   }
 
+  .txt_64px_heading-1.white {
+    width: 80vw;
+  }
+
   .txt_logo {
-    display: none;
+    display: block;
+    font-weight: 400;
   }
 
   .link_logo_footer {
@@ -3454,10 +3471,10 @@ a {
 
   ._03 {
     padding-left: 0px;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     grid-column-gap: 4px;
     grid-row-gap: 4px;
   }
@@ -3532,7 +3549,7 @@ a {
     min-width: 0px;
   }
 
-  .txt_24px_section-description-copy-copy {
+  .paragraph-text {
     font-size: 16px;
     line-height: 24px;
     text-align: left;
@@ -3550,6 +3567,10 @@ a {
     width: 90vw;
     margin-bottom: 24px;
     padding-top: 0px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     font-size: 40px;
     line-height: 40px;
   }
@@ -3564,6 +3585,10 @@ a {
 
   .text-block-114 {
     font-size: 10px;
+  }
+
+  .div-block-130 {
+    display: none;
   }
 }
 
