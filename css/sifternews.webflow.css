@@ -196,11 +196,18 @@ a {
 }
 
 .nav_logo-link {
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   height: 100%;
   margin-right: 0px;
   margin-left: 0px;
   padding: 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .nav_logo-link.w--current {
@@ -3241,6 +3248,7 @@ a {
 
   .txt_logo {
     display: block;
+    font-size: 10px;
     font-weight: 400;
   }
 
