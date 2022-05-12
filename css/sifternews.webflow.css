@@ -1692,7 +1692,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: auto;
+  width: 80%;
   padding-top: 0px;
   padding-bottom: 16px;
   padding-left: 0px;
@@ -2515,6 +2515,7 @@ a {
 
 .txt_24px_section-description-copy-copy {
   display: block;
+  max-width: 400px;
   padding-top: 0px;
   padding-bottom: 24px;
   font-family: Poppins, sans-serif;
