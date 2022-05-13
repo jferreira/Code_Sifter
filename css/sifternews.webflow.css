@@ -1137,7 +1137,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  min-height: 30vh;
+  min-height: 25vh;
   margin-top: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1394,7 +1394,7 @@ a {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .txt_18px_button:hover {
@@ -2517,11 +2517,13 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
 }
 
 .txt_64px_heading-1-copy {
@@ -2946,13 +2948,13 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 16px 0px 8px;
+  padding: 0px 0px 8px;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
   font-family: Poppins, sans-serif;
   color: rgba(0, 0, 0, 0.36);
-  font-size: 56px;
+  font-size: 48px;
   line-height: 56px;
   font-weight: 700;
 }
