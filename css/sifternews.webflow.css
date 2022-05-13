@@ -307,7 +307,6 @@ a {
 .img_icon {
   width: 32px;
   padding: 0px;
-  border-radius: 0px;
 }
 
 .img_icon.black-hover {
@@ -2161,7 +2160,7 @@ a {
 }
 
 .inner_content {
-  width: 60%;
+  width: 70%;
   min-height: 340px;
   padding-top: 24px;
 }
