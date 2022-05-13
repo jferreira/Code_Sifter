@@ -228,7 +228,7 @@ a {
   top: auto;
   right: 0%;
   bottom: 0%;
-  padding-top: 24px;
+  padding-top: 0px;
   background-color: #0f051b;
 }
 
@@ -273,7 +273,7 @@ a {
 }
 
 .txt_ftr_cr {
-  font-family: Poppins, sans-serif;
+  font-family: Inconsolata, monospace;
   color: hsla(0, 0%, 100%, 0.2);
   font-size: 10px;
   line-height: 28px;
@@ -3160,6 +3160,10 @@ a {
 
 .text-block-116:hover {
   color: #fff;
+}
+
+.text-span-28 {
+  color: #01ffed;
 }
 
 @media screen and (min-width: 1280px) {
