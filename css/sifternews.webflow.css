@@ -229,8 +229,17 @@ a {
   top: auto;
   right: 0%;
   bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 50vh;
   padding-top: 32px;
   padding-bottom: 32px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: #0f051b;
 }
 
@@ -387,7 +396,7 @@ a {
   padding-bottom: 0px;
   font-family: Poppins, sans-serif;
   color: hsla(0, 0%, 100%, 0.7);
-  font-size: 20px;
+  font-size: 18px;
   line-height: 28px;
   font-weight: 400;
   text-align: left;
@@ -401,8 +410,8 @@ a {
   align-self: flex-start;
   font-family: Poppins, sans-serif;
   color: #fff;
-  font-size: 56px;
-  line-height: 56px;
+  font-size: 48px;
+  line-height: 48px;
   font-weight: 600;
   text-align: left;
   letter-spacing: -1px;
@@ -976,6 +985,7 @@ a {
 .btn_email-pop-up.style-invert {
   overflow: auto;
   height: 40px;
+  max-width: 200px;
   padding-top: 2px;
   padding-bottom: 2px;
   padding-left: 24px;
@@ -1125,10 +1135,10 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .sec_email-subscription {
@@ -1137,7 +1147,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  min-height: 25vh;
+  min-height: 50vh;
   margin-top: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1393,8 +1403,8 @@ a {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 .txt_18px_button:hover {
@@ -1876,6 +1886,7 @@ a {
 .link-block {
   width: 100%;
   height: auto;
+  max-width: 200px;
 }
 
 .text-span-9 {
@@ -2164,7 +2175,7 @@ a {
 }
 
 .inner_content {
-  width: 70%;
+  width: 60%;
   min-height: 340px;
   padding-top: 24px;
 }
@@ -3154,7 +3165,7 @@ a {
   -ms-flex-pack: center;
   justify-content: center;
   border-radius: 16px;
-  background-color: hsla(0, 0%, 100%, 0.06);
+  background-color: hsla(0, 0%, 100%, 0.03);
   color: hsla(0, 0%, 100%, 0);
 }
 
@@ -3170,14 +3181,15 @@ a {
 }
 
 .text-span-28 {
-  color: #01ffed;
+  color: #fff;
 }
 
 .line-2 {
   height: 24px;
   margin-left: 16px;
-  border-right: 1px solid #fff;
-  color: rgba(255, 255, 255, 0.1);
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsla(0, 0%, 100%, 0.15);
 }
 
 .txt_logo-copy {
@@ -3211,6 +3223,12 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.span {
+  height: 100%;
+  padding-right: 8px;
+  color: rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (min-width: 1280px) {
@@ -3978,8 +3996,8 @@ a {
 
   .hero.white {
     width: 90vw;
-    font-size: 32px;
-    line-height: 32px;
+    font-size: 40px;
+    line-height: 36px;
   }
 
   .hero.black {
