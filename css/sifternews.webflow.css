@@ -236,6 +236,10 @@ a {
   min-height: 50vh;
   padding-top: 32px;
   padding-bottom: 32px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -1954,7 +1958,7 @@ a {
 
 .btn-tg-hero:hover {
   background-color: #fff;
-  color: #9262ff;
+  color: #ff4d94;
   font-weight: 500;
 }
 
@@ -2690,7 +2694,6 @@ a {
 }
 
 .inner_content-copy {
-  max-width: 700px;
   padding-top: 24px;
   padding-right: 64px;
   text-align: left;
@@ -3094,7 +3097,7 @@ a {
 
 .how-btn:hover {
   background-color: hsla(0, 0%, 100%, 0.3);
-  color: #7c4ce9;
+  color: #ff4d94;
   font-weight: 500;
 }
 
