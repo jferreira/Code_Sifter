@@ -1933,11 +1933,12 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: auto;
   height: 40px;
+  min-width: 200px;
   margin-right: 0px;
   margin-left: 0px;
-  padding: 4px 32px;
+  padding: 4px 24px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1964,7 +1965,6 @@ a {
 }
 
 .btn-tg-hero.w--current {
-  width: 100%;
   background-color: rgba(255, 255, 255, 0.2);
   color: #000;
   font-size: 12px;
@@ -2147,7 +2147,6 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 720px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
