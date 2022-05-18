@@ -4327,8 +4327,9 @@ a {
   }
 
   .btn-tg-hero {
-    padding-right: 24px;
-    padding-left: 24px;
+    min-width: auto;
+    padding-right: 16px;
+    padding-left: 16px;
     font-size: 10px;
   }
 
