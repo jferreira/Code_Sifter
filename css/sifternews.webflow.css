@@ -430,7 +430,7 @@ a {
 .hero.black {
   width: 100%;
   padding-bottom: 24px;
-  color: #ff4d94;
+  color: #1a0c38;
   text-align: center;
 }
 
@@ -1965,7 +1965,7 @@ a {
 }
 
 .btn-tg-hero.w--current {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.9);
   color: #000;
   font-size: 12px;
   font-weight: 600;
@@ -2166,7 +2166,7 @@ a {
 
 .tabs-menu.dark-copy {
   width: 100%;
-  background-color: rgba(255, 77, 148, 0.51);
+  background-color: rgba(95, 95, 95, 0.51);
 }
 
 .text-block-111 {
@@ -3091,7 +3091,7 @@ a {
   border-radius: 20px;
   background-color: hsla(0, 0%, 86.7%, 0);
   font-family: Poppins, sans-serif;
-  color: #fff;
+  color: #1a0c38;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 2px;
@@ -3107,7 +3107,7 @@ a {
 
 .how-btn.w--current {
   width: 100%;
-  background-color: #ff4d94;
+  background-color: #1a0c38;
   color: #fff;
   font-size: 12px;
   font-weight: 600;
@@ -3161,6 +3161,10 @@ a {
 
 .how-btn.color_white.hide {
   display: none;
+}
+
+.how-btn.hover {
+  color: #1a0c38;
 }
 
 .bio {
@@ -3279,6 +3283,30 @@ a {
   mix-blend-mode: normal;
 }
 
+.text-block-120 {
+  color: #fff;
+}
+
+.img_icon-copy {
+  width: 32px;
+  padding: 0px;
+}
+
+.img_icon-copy.black-hover {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.img_icon-copy.black-hover:hover {
+  border-radius: 100px;
+  background-color: #000;
+}
+
+.nav-btn {
+  width: 32px;
+  height: 32px;
+}
+
 @media screen and (min-width: 1280px) {
   a {
     font-family: Gilroy, sans-serif;
@@ -3301,6 +3329,10 @@ a {
     padding-top: 0px;
   }
 
+  .tabs-menu.dark-copy {
+    background-color: rgba(182, 182, 182, 0.51);
+  }
+
   .paragraph-text {
     padding-top: 0px;
   }
@@ -3315,6 +3347,14 @@ a {
 
   .txt_footer_title-copy {
     padding-top: 16px;
+  }
+
+  .how-btn {
+    color: #8a839c;
+  }
+
+  .how-btn.w--current {
+    background-color: #8a839b;
   }
 }
 
