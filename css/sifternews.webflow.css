@@ -1965,12 +1965,17 @@ a {
 }
 
 .btn-tg-hero.w--current {
-  background-color: rgba(255, 255, 255, 0.9);
-  color: #000;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+.btn-tg-hero.w--current:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .btn-tg-hero.style-invert {
@@ -2166,7 +2171,7 @@ a {
 
 .tabs-menu.dark-copy {
   width: 100%;
-  background-color: rgba(95, 95, 95, 0.51);
+  background-color: rgba(95, 95, 95, 0.2);
 }
 
 .text-block-111 {
@@ -2402,8 +2407,8 @@ a {
 }
 
 .btn_primary:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-  color: #fff;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #000;
 }
 
 .btn_primary.small {
@@ -2411,7 +2416,9 @@ a {
 }
 
 .btn_primary.nav {
-  width: 100%;
+  width: 200px;
+  padding-right: 12px;
+  padding-left: 12px;
 }
 
 .tabs {
@@ -3107,8 +3114,8 @@ a {
 
 .how-btn.w--current {
   width: 100%;
-  background-color: #1a0c38;
-  color: #fff;
+  background-color: rgba(26, 12, 56, 0.12);
+  color: #000;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 2px;
@@ -3284,7 +3291,7 @@ a {
 }
 
 .text-block-120 {
-  color: #fff;
+  color: #000;
 }
 
 .img_icon-copy {
@@ -3314,11 +3321,14 @@ a {
 .image-2 {
   width: 32px;
   height: 32px;
+  opacity: 0.5;
 }
 
-.image-3 {
+._01_avatar {
   width: 32px;
   height: 32px;
+  opacity: 0.5;
+  color: #fff;
 }
 
 @media screen and (min-width: 1280px) {
