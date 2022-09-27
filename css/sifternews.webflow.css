@@ -3333,6 +3333,28 @@ a {
   color: #fff;
 }
 
+.section {
+  background-color: #0e2523;
+}
+
+.text-block-121 {
+  width: 100vw;
+  height: 100%;
+  padding-top: 16px;
+  background-color: #7cfff2;
+  font-family: Poppins, sans-serif;
+  color: #000;
+  font-size: 10px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.link-block-2 {
+  border: 1px none #000;
+}
+
 @media screen and (min-width: 1280px) {
   a {
     font-family: Gilroy, sans-serif;
@@ -4409,9 +4431,13 @@ a {
 
   .btn_primary {
     width: auto;
-    height: 32px;
+    height: 40px;
     padding-right: 24px;
     padding-left: 24px;
+  }
+
+  .btn_primary:hover {
+    color: #fff;
   }
 
   .tabs {
@@ -4603,6 +4629,14 @@ a {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+
+  .section {
+    background-color: #000;
+  }
+
+  .text-block-121 {
+    width: 100vw;
   }
 }
 
