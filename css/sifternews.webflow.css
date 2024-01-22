@@ -7,6 +7,12 @@
   --hot-pink: rgba(255, 77, 196, .2);
 }
 
+.w-layout-vflex {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
 .w-layout-blockcontainer {
   max-width: 940px;
   margin-left: auto;
@@ -2017,8 +2023,9 @@ a {
   background-clip: padding-box;
   border: .3px solid rgba(255, 255, 255, .1);
   border-radius: 8px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 28px;
+  padding-right: 28px;
+  font-size: 10px;
   overflow: hidden;
 }
 
@@ -2932,10 +2939,11 @@ a {
 
 .text_highlight {
   color: #2d2d2d;
+  text-align: center;
   -webkit-text-stroke-width: 0px;
   background-color: #fff;
   border-radius: 2px;
-  align-self: flex-start;
+  align-self: center;
   padding: 2px 8px;
 }
 
@@ -3144,8 +3152,11 @@ a {
 }
 
 .text_package {
+  width: 100vw;
   grid-column-gap: 24px;
   grid-row-gap: 24px;
+  text-align: center;
+  justify-content: center;
   align-items: center;
   display: flex;
 }
@@ -3168,6 +3179,7 @@ a {
 }
 
 .txt_hero_left {
+  width: 100%;
   color: rgba(255, 255, 255, .5);
   text-align: left;
   letter-spacing: -.5px;
@@ -3177,13 +3189,13 @@ a {
   flex-direction: column;
   justify-content: center;
   align-self: flex-start;
-  align-items: flex-start;
-  margin-bottom: 12px;
+  align-items: center;
+  margin-bottom: -16px;
   padding: 0 0% 0 0;
   font-family: Poppins, sans-serif;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 600;
-  line-height: 44px;
+  line-height: 32px;
   display: flex;
 }
 
@@ -3210,24 +3222,28 @@ a {
 }
 
 .txt_hero_right {
+  height: 100%;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   color: rgba(255, 255, 255, .07);
-  text-align: left;
+  text-align: center;
   letter-spacing: -.5px;
   -webkit-text-stroke-width: 0px;
   -webkit-text-stroke-color: rgba(255, 255, 255, .4);
-  border: 1px #fff;
+  border: 0 rgba(255, 255, 255, 0);
   border-radius: .1px;
   flex-direction: column;
   justify-content: center;
   align-self: flex-start;
   align-items: flex-start;
-  margin-bottom: 12px;
+  margin-bottom: -24px;
   padding: 0 0% 0 0;
   font-family: Poppins, sans-serif;
   font-size: 40px;
   font-weight: 600;
   line-height: 44px;
   display: flex;
+  box-shadow: 0 0 0 -2px rgba(255, 255, 255, .2);
 }
 
 .txt_hero_right:hover {
@@ -3442,7 +3458,7 @@ a {
 
 .div_type-package_main {
   width: 50%;
-  max-width: 720px;
+  max-width: 640px;
   min-height: auto;
   min-width: auto;
   text-align: center;
@@ -3677,6 +3693,7 @@ a {
 .div_-image_container {
   width: 60vw;
   height: auto;
+  max-width: 640px;
   aspect-ratio: 16 / 9;
   perspective: 1000px;
   justify-content: center;
@@ -3728,6 +3745,62 @@ a {
   bottom: 0%;
   left: 0%;
   right: 0%;
+}
+
+.text-span-39 {
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.flex-block {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-span-40 {
+  text-align: center;
+  align-self: center;
+  font-size: 56px;
+}
+
+.title-link {
+  width: 100%;
+  height: 96px;
+  color: #fff;
+  text-align: center;
+}
+
+.link-block-4 {
+  width: 100%;
+}
+
+.heading_link {
+  color: #300527;
+  font-family: Poppins, sans-serif;
+  font-size: 96px;
+  font-weight: 600;
+}
+
+.heading_link:hover {
+  color: #fff;
+}
+
+.paragraph-3 {
+  width: 100%;
+  height: auto;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: none;
+}
+
+.flex-block-2 {
+  transform-style: preserve-3d;
 }
 
 @media screen and (min-width: 1280px) {
@@ -3811,6 +3884,11 @@ a {
   .txt_hero_left.black, .txt_hero_right.black, .txt_hero_options-purple.black, .txt_page_article.black {
     align-items: center;
     padding-right: 0%;
+  }
+
+  .background {
+    height: 100vh;
+    display: block;
   }
 }
 
@@ -4055,10 +4133,6 @@ a {
     right: 0%;
   }
 
-  .txt_body-copy.fade {
-    padding-bottom: 32px;
-  }
-
   ._06 {
     justify-content: center;
     display: flex;
@@ -4264,7 +4338,16 @@ a {
     margin-right: 32px;
   }
 
-  .line-2, .logo_sub-text, .dropdown {
+  .line-2, .logo_sub-text {
+    display: none;
+  }
+
+  .section_roles {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .dropdown {
     display: none;
   }
 
@@ -4424,11 +4507,6 @@ a {
     -webkit-backdrop-filter: none;
     backdrop-filter: none;
     border-radius: 0;
-    padding-left: 8px;
-    padding-right: 8px;
-  }
-
-  .btn_primary.button-learn-more {
     padding-left: 8px;
     padding-right: 8px;
   }
@@ -4918,6 +4996,9 @@ a {
 
   .btn_primary.nav-_login-logout {
     height: 20px;
+    box-shadow: none;
+    color: rgba(255, 255, 255, .7);
+    background-color: rgba(255, 255, 255, .4);
     border-radius: 0;
   }
 
@@ -5110,6 +5191,7 @@ a {
 
   .section_roles {
     background-color: #000;
+    flex-direction: column-reverse;
     justify-content: center;
     padding-top: 8px;
     display: flex;
@@ -5129,7 +5211,6 @@ a {
   }
 
   .text-block-122 {
-    color: rgba(0, 0, 0, .5);
     text-align: center;
     flex: 1;
     font-size: 8px;
@@ -5168,7 +5249,6 @@ a {
   }
 
   .text_for-button {
-    color: rgba(255, 255, 255, .38);
     text-align: center;
     flex: 1;
     font-size: 8px;
@@ -5189,7 +5269,7 @@ a {
     grid-row-gap: 0px;
     -webkit-text-fill-color: inherit;
     background-clip: padding-box;
-    border-radius: 16px;
+    border-radius: 8px 16px 16px 8px;
     flex-direction: column-reverse;
     justify-content: center;
     overflow: hidden;
@@ -5230,11 +5310,12 @@ a {
 
   .txt_hero_right {
     width: 100%;
+    text-align: center;
     align-items: center;
     margin-bottom: 24px;
     padding-top: 0;
-    font-size: 22px;
-    line-height: 22px;
+    font-size: 64px;
+    line-height: 64px;
   }
 
   .txt_hero_right.white {
@@ -5299,6 +5380,7 @@ a {
 
   .txt_body-copy.fade {
     width: 100%;
+    font-size: 10px;
   }
 
   ._006 {
@@ -5312,8 +5394,8 @@ a {
     min-height: auto;
     min-width: auto;
     padding-bottom: 16px;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
   }
 
   ._002 {
@@ -5362,6 +5444,11 @@ a {
     margin-left: 8px;
     margin-right: 8px;
     overflow: hidden;
+  }
+
+  .flex-block-2 {
+    margin-left: 24px;
+    transform: rotateX(0)rotateY(-4deg)rotateZ(90deg);
   }
 }
 
