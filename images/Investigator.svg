@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Investigator</title>
+    <defs>
+        <linearGradient x1="50%" y1="2.82178759%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00DB6C" offset="0%"></stop>
+            <stop stop-color="#02CEBF" offset="32.9135708%"></stop>
+            <stop stop-color="#815EFF" offset="59.1696966%"></stop>
+            <stop stop-color="#A238FF" offset="78.9881993%"></stop>
+            <stop stop-color="#A177FF" offset="98.3309603%"></stop>
+            <stop stop-color="#A278FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Investigator" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M24,0 C37.254834,0 48,10.745166 48,24 C48,37.254834 37.254834,48 24,48 C10.745166,48 0,37.254834 0,24 C0,10.745166 10.745166,0 24,0 Z M24,8 C15.163444,8 8,15.163444 8,24 C8,32.836556 15.163444,40 24,40 C32.836556,40 40,32.836556 40,24 C40,15.163444 32.836556,8 24,8 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+        <circle id="Oval" fill="#FFFFFF" cx="24" cy="24" r="12"></circle>
+    </g>
+</svg>
