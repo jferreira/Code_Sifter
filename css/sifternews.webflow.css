@@ -3976,7 +3976,7 @@ a {
   cursor: none;
   justify-content: center;
   align-items: center;
-  display: none;
+  display: block;
   position: fixed;
   overflow: visible;
 }
@@ -4255,7 +4255,7 @@ a {
 }
 
 .tabs-menu-2 {
-  width: 30%;
+  max-width: 300px;
   grid-column-gap: 2px;
   grid-row-gap: 2px;
   justify-content: center;
