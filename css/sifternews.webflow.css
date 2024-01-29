@@ -3052,7 +3052,7 @@ a {
 
 .dropdown-text {
   color: #fff;
-  font-size: 10px;
+  font-size: 8px;
   line-height: 14px;
 }
 
@@ -3472,6 +3472,8 @@ a {
   text-align: center;
   letter-spacing: 1px;
   margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 0;
   padding-bottom: 16px;
   font-size: 10px;
@@ -3774,6 +3776,8 @@ a {
   justify-content: center;
   align-self: center;
   align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   position: relative;
 }
@@ -3964,7 +3968,7 @@ a {
   cursor: none;
   justify-content: center;
   align-items: center;
-  display: flex;
+  display: none;
   position: fixed;
   overflow: visible;
 }
@@ -4217,19 +4221,22 @@ a {
   color: rgba(255, 255, 255, .3);
   letter-spacing: 5px;
   text-transform: uppercase;
-  background-color: rgba(221, 221, 221, 0);
+  background-color: rgba(221, 221, 221, .01);
   justify-content: center;
-  padding: 0;
+  padding: 0 12px 0 16px;
   font-size: 8px;
+  font-weight: 500;
   display: flex;
 }
 
 .btn_tab.w--current {
   color: #fff;
   letter-spacing: 5px;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, .03);
   border: 1px #000;
   border-radius: 4px;
+  padding-left: 16px;
+  padding-right: 12px;
 }
 
 .tab-link-tab-2 {
@@ -4240,9 +4247,10 @@ a {
 
 .tabs-menu-2 {
   width: 40%;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: -8px auto 8px;
   display: flex;
 }
 
@@ -4253,7 +4261,7 @@ a {
   display: flex;
 }
 
-.tab_block {
+._05_-tab_block {
   align-self: center;
   margin-top: 12px;
 }
@@ -4266,8 +4274,26 @@ a {
   display: flex;
 }
 
+.tab-pane-video {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .tabs-content-2 {
   overflow: visible;
+}
+
+.text-block-126 {
+  height: 20px;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.text-block-127 {
+  border-radius: 4px;
+  padding-left: 12px;
+  padding-right: 8px;
 }
 
 @media screen and (min-width: 1280px) {
