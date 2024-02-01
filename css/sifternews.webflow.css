@@ -4696,10 +4696,6 @@ a {
     justify-content: center;
     display: flex;
   }
-
-  .txt_newsletter {
-    color: #fff;
-  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -4909,7 +4905,7 @@ a {
   }
 
   ._002-cursor-graphics {
-    display: none;
+    display: flex;
   }
 
   ._02_circle_small {
