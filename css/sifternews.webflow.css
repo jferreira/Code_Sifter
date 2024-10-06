@@ -430,7 +430,7 @@ a {
   align-self: center;
   font-family: Poppins, sans-serif;
   font-size: 10px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 10px;
   display: block;
 }
@@ -4333,7 +4333,7 @@ a {
   font-size: 12px;
   font-weight: 300;
   line-height: 16px;
-  display: block;
+  display: none;
   position: absolute;
   inset: 115px 0% auto;
 }
@@ -4392,11 +4392,12 @@ a {
 
 .request-early-access {
   color: #461c8b;
+  text-align: center;
   letter-spacing: 4px;
   text-transform: uppercase;
   background-color: #ae7dfd;
   border-radius: 16px;
-  width: auto;
+  width: 220px;
   height: auto;
   padding: 6px 24px;
   font-family: Poppins, sans-serif;
@@ -4411,8 +4412,8 @@ a {
 }
 
 .inner_text {
-  grid-column-gap: 8px;
-  grid-row-gap: 8px;
+  grid-column-gap: 128px;
+  grid-row-gap: 128px;
   justify-content: flex-end;
   align-items: center;
   display: flex;
@@ -4423,9 +4424,9 @@ a {
   font-weight: 600;
 }
 
-.ai_background {
-  grid-column-gap: 24px;
-  grid-row-gap: 24px;
+.banner_outer {
+  grid-column-gap: 48px;
+  grid-row-gap: 48px;
   background-color: #0000;
   border-radius: 20px;
   justify-content: center;
@@ -4447,7 +4448,7 @@ a {
   padding: 6px 24px;
   font-family: Poppins, sans-serif;
   font-size: 8px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .btn-subscribe:hover {
@@ -4471,15 +4472,15 @@ a {
   display: block;
 }
 
-.div-block-137 {
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+.banner_inner {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
-.ai_logo-copy {
+.banner_logo {
   color: #ae7efe;
   letter-spacing: 8px;
   text-transform: uppercase;
@@ -4521,11 +4522,11 @@ a {
   position: relative;
 }
 
-.text-span-42 {
-  color: #ffffffad;
+.banner_ai {
+  color: #ae7efe;
   border: 1px #fff;
-  font-size: 8px;
-  font-weight: 300;
+  font-size: 10px;
+  font-weight: 700;
 }
 
 .text-span-43 {
@@ -4534,8 +4535,10 @@ a {
   font-weight: 400;
 }
 
-.text-span-44 {
+.banner_upgrade {
+  color: #ae7efe8c;
   font-size: 10px;
+  font-weight: 700;
 }
 
 .logo-icon-copy {
@@ -4562,6 +4565,14 @@ a {
 .logo-icon-copy.large {
   width: 32px;
   height: 32px;
+}
+
+.banner_description {
+  color: #ae7dfd99;
+  letter-spacing: .5px;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 12px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -5148,6 +5159,10 @@ a {
 
   .line-2, .logo_sub-text, .dropdown {
     display: block;
+  }
+
+  .dropdown-toggle {
+    display: none;
   }
 
   .buttons_call-to-action {
@@ -5755,12 +5770,32 @@ a {
     color: #e57dff;
   }
 
+  .request-early-access {
+    width: 180px;
+  }
+
+  .inner_text {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .banner_outer {
+    padding-left: 0;
+  }
+
   .btn-subscribe {
     justify-content: center;
     align-items: center;
     height: 100%;
     line-height: 10px;
     display: flex;
+  }
+
+  .banner_description {
+    flex: 1;
+    line-height: 12px;
   }
 }
 
@@ -6032,6 +6067,7 @@ a {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-right: 4px;
+    top: 8px;
   }
 
   .nav_menu-items {
@@ -6954,6 +6990,8 @@ a {
   }
 
   .text_main {
+    color: #00000096;
+    top: 62px;
     left: 16px;
     right: 16px;
   }
@@ -6963,6 +7001,7 @@ a {
     grid-row-gap: 16px;
     height: 56px;
     padding: 4px 16px 8px;
+    display: none;
   }
 
   .ai_logo {
@@ -6980,7 +7019,7 @@ a {
     flex-flow: row;
   }
 
-  .ai_background {
+  .banner_outer {
     height: 12px;
     padding-left: 0;
   }
@@ -6992,7 +7031,7 @@ a {
     display: flex;
   }
 
-  .ai_logo-copy {
+  .banner_logo {
     text-align: left;
     letter-spacing: 6px;
     font-size: 8px;
@@ -7007,13 +7046,13 @@ a {
     padding-right: 16px;
   }
 
-  .text-span-42 {
+  .banner_ai {
     width: 100%;
     font-size: 6px;
     display: block;
   }
 
-  .text-span-44 {
+  .banner_upgrade {
     font-weight: 500;
   }
 
