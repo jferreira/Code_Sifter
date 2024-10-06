@@ -4412,8 +4412,8 @@ a {
 }
 
 .inner_text {
-  grid-column-gap: 128px;
-  grid-row-gap: 128px;
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
   justify-content: flex-end;
   align-items: center;
   display: flex;
