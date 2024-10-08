@@ -915,7 +915,7 @@ a {
 
 .sec_email-subscription {
   text-align: center;
-  background-color: #ff7199b3;
+  background-color: #ae7dfd;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -3796,7 +3796,7 @@ a {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  display: none;
+  display: block;
   position: fixed;
   overflow: visible;
 }
@@ -4348,8 +4348,12 @@ a {
   grid-row-gap: 24px;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
+  outline-offset: 0px;
   background-color: #ae7dfda8;
   background-image: linear-gradient(#00000080, #00000080);
+  border-top: .5px solid #ae7efe80;
+  border-bottom: 1px solid #ae7dfd80;
+  outline: 3px #333;
   flex-flow: row;
   justify-content: center;
   align-items: center;
@@ -4396,6 +4400,7 @@ a {
   letter-spacing: 4px;
   text-transform: uppercase;
   background-color: #ae7dfd;
+  border: 1px solid #fff3;
   border-radius: 16px;
   width: 220px;
   height: auto;
@@ -4511,7 +4516,7 @@ a {
 
 .sec_comunity {
   text-align: center;
-  background-color: #d051feb3;
+  background-color: #8e5fdb;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -4570,9 +4575,10 @@ a {
 .banner_description {
   color: #ae7dfd99;
   letter-spacing: .5px;
-  font-size: 12px;
+  -webkit-text-stroke-color: #ae7dfd;
+  font-size: 10px;
   font-weight: 300;
-  line-height: 12px;
+  line-height: 10px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -5574,7 +5580,6 @@ a {
     flex-direction: column-reverse;
     justify-content: center;
     max-width: 128px;
-    height: 40px;
     display: flex;
     overflow: hidden;
   }
@@ -5789,6 +5794,8 @@ a {
     justify-content: center;
     align-items: center;
     height: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
     line-height: 10px;
     display: flex;
   }
@@ -6991,6 +6998,7 @@ a {
 
   .text_main {
     color: #00000096;
+    display: block;
     top: 62px;
     left: 16px;
     right: 16px;
